@@ -66,9 +66,9 @@ df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/vacci
 
 ## Contributions
 
-1. Branda, F. Impact of the additional/booster dose of COVID-19 vaccine against severe disease during the epidemic 
-phase characterized by the predominance of the Omicron variant in Italy, November 2021 - March 2022. medRxiv 2022, 
-[https://www.medrxiv.org/content/early/2022/04/28/2022.04.21.22273567.full.pdf]. doi:10.1101/2022.04.21.22273567. 
+1. [Branda, F. Impact of the additional/booster dose of COVID-19 vaccine against severe disease during the epidemic 
+phase characterized by the predominance of the Omicron variant in Italy, November 2021 - March 2022. medRxiv 2022]
+(https://www.medrxiv.org/content/early/2022/04/28/2022.04.21.22273567.full.pdf]. doi:10.1101/2022.04.21.22273567) 
 
 
 ## License and attribution
