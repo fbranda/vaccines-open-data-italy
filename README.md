@@ -50,18 +50,18 @@ This repository contains data extracted from the [Italian National Institute of 
 
 ## Getting the data
 
-**Direct download (CSV)**: https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Efficacia_vaccinale/report_iss_efficacia_vaccini.csv  
+**Direct download (CSV)**: [https://raw.githubusercontent.com/fbranda/vaccines-open-data/main/Report_ISS/Efficacia_vaccinale/report_iss_efficacia_vaccini.csv](https://raw.githubusercontent.com/fbranda/vaccines-open-data/main/report_iss_efficacia_vaccini.csv)  
 
 **Python** (requires `pandas`):
 ```python
 import pandas as pd
-df = pd.read_csv("https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Efficacia_vaccinale/report_iss_efficacia_vaccini.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/fbranda/vaccines-open-data/main/report_iss_efficacia_vaccini.csv")
 ```
 
 **R** (requires `httr`):
 ```r
 library(httr)
-df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/INFN-ISS/main/Report_ISS/Efficacia_vaccinale/report_iss_efficacia_vaccini.csv")))
+df <- read.csv(text=content(GET("https://raw.githubusercontent.com/fbranda/vaccines-open-data/main/report_iss_efficacia_vaccini.csv")))
 ```
 
 ## Contributions
